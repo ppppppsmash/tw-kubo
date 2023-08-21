@@ -1,7 +1,8 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/developer-pic-2.jpg";
+//import profile from "../../public/images/profile/developer-pic-2.jpg";
+import profile from "../../public/images/profile_me.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -49,7 +50,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="关于久保生医"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -57,16 +58,13 @@ export default function About() {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
             md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                BIOGRAPHY
+                Test
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
-                UI/UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 4 years
-                of experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+                哈喽&apos;我是 <strong>Pei</strong>,
+              一个Web前端从业者
               </p>
-              <p className="my-4 font-medium">
+              {/* <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
                 pretty – it&apos;s about solving problems and creating
                 intuitive, enjoyable experiences for users.
@@ -77,7 +75,7 @@ export default function About() {
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
                 your next project.
-              </p>
+              </p> */}
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -98,7 +96,7 @@ export default function About() {
                 priority
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
+            {/* <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
@@ -129,12 +127,12 @@ export default function About() {
                   Years of experience
                 </h2>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <Skills />
-          <Experience />
-          <Education />
+          {/* <Experience />
+          <Education /> */}
         </Layout>
       </main>
     </>

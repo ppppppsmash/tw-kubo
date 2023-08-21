@@ -6,7 +6,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+//import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile_me.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
@@ -41,11 +42,11 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="文字文字文字文字文字文字文字"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              テスト・テストテスト
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
@@ -58,10 +59,10 @@ export default function Home() {
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:p-2 md:px-4 md:text-base
-             `}
+            `}
                   download
                 >
-                  Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
+                  点击这里 <LinkArrow className="ml-1 !w-6 md:!w-4" />
                 </Link>
 
                 <Link
@@ -69,7 +70,7 @@ export default function Home() {
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
-                  Contact
+                  联系我们
                 </Link>
               </div>
             </div>
